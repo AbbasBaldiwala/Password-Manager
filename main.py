@@ -5,9 +5,10 @@ IMG_WIDTH = 200
 IMG_HEIGHT = 200
 FONT_NAME = "Courier"
 BG = "black"
+PADDING = 20
 
 window = Tk()
-window.config(padx=20, pady=20)
+window.config(padx=PADDING, pady=PADDING)
 canvas = Canvas(width=IMG_WIDTH, height=IMG_HEIGHT, highlightthickness=0)
 
 bgImage = PhotoImage(file="logo.png")
